@@ -9,6 +9,7 @@ public class CognixiaApplication {
   public String notUsed = "cognixia";
   
 	public static void main(String[] args) {
+		System.out.println("Hello World from Web Hook");
 		SpringApplication.run(CognixiaApplication.class, args);
 	}
 
